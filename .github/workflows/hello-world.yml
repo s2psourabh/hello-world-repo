@@ -1,8 +1,8 @@
 name: Hello World
-on: push
+'on': push
 jobs:
   hello-job:
-    runs-on: ubuntu
+    runs-on: ubuntu-22.04
     steps:
       - name: hello-job
         run: exho "Hello, world!"
